@@ -3,15 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- internal css link -->
+    <style>
+      
+      h2{
+        color: white;
+        text-decoration: solid underline;
+      }
+
+      img {
+        display: block;
+        border-radius: 12px;
+      }
+    </style>
+
+    <!-- Title of the page -->
     <title>Pascal Bio</title>
 </head>
 <body>
 
+  <div>
     <!-- MY NAME -->
     <h1>EKLOU KOSSI</h1>
 
     <!-- MY IMAGE -->
-     <img src="/assets/eklou_kossi.jpg" alt="eklou kossi" width="30%">
+     <img src="/assets/eklou-kossi.jpg" alt="eklou-kossi" width="30%">
 
     <!-- MY BIO -->
     <h2>About me</h2>
@@ -24,6 +44,7 @@
         <li>Being able to develop a website from A to Z</li>
         <li>Learning to use frameworks like React, Angular, or Vue.js</li>
       </ol>
+
     <!-- MY TOP 3 HOBBIES -->
      <h2>My top 3 hobbies</h2>
       <ul>
@@ -32,13 +53,19 @@
         <li>Community Management</li>
       </ul>
 
-    <!-- CONTACTS  -->
-    <h2>Contact me</h2>
+    <!-- MY CONTACT  -->
+    <h2>Contact</h2>
 
-    <a href="#" target="_blank">Facebook</a><br/>
-    <a href="#">Email</a>
+    <!-- INLINE CSS -->
+    <a href="#" target="_blank" style="color: #260300; font-size: large; font-weight: bold;">Facebook</a><br/>
+    <a href="#" style="color: #260300; font-size: large; font-weight: bold;">Email</a><br><br>
+    
+    <!-- LINK TO REGISTRATION FORM -->
+    <a href="/form.html">----- Fill Registration Form -----</a><br><br>
+  </div>
       
-
-
+  <footer style="text-align: center; background-color: #260300; color: white; padding:10px;">
+    <p>© 2023 Eklou Kossi. All rights reserved.</p>
+  </footer>
 </body>
 </html>

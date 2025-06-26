@@ -1,0 +1,26 @@
+body {
+    background-color: #C75220;
+   /* text-align: center; */
+   margin: 0%;
+}
+
+div{
+  justify-items:center;  
+}
+
+h1 {
+    color: white;
+}
+
+th {
+    /* table head coloring */
+    background-color: #260300;
+    color: white;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}

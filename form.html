@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal css link -->
+     <style>
+      h2{
+        text-decoration: solid underline;
+      }
+     </style>
+    <title>Student-Registration-Form</title>
+</head>
+<body>
+  <main>
+  <div>
+       <!-- form title -->
+  <h1>Welcome to DevHatch HTML Pratice</h1>
+  <h2>Student Registration Form</h2>
+
+  <!-- form -->
+  <form action=""> 
+
+     <label for="fullname">Full Name:</label>
+     <input type="text" id="fullname" name="fullname"><br><br>
+
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email"><br><br>
+
+     <label for="dod">Date of birth:</label>
+     <input type="date" id="dob" name="date of birth"><br><br>
+
+     <label for="gender">Gender</label><br><br>
+
+     <input type="radio" id="male" name="gender">
+     <label for="Male">Male</label>
+
+     <input type="radio" id="female" name="gender">
+     <label for="female">Female</label><br><br>
+
+     <label for="">Choose a course</label><br><br>
+     <select name="courses" id="courses">  
+       <option value="HTML">HTML</option>
+       <option value="CSS">CSS</option>
+       <option value="JavaScript">JavaScript</option>
+     </select><br><br>
+
+     <input type="checkbox">
+     <label for="terms">I agree to the terms and conditions</label><br><br>
+
+     <input type="button" value="submit" style="color: white; background-color: #260300; padding: 5px 20px; border-radius: 5px;">
+
+  </form>
+     
+  <!-- Table section -->
+
+  <h2>Student Score Table</h2>
+
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Fullname</th>
+      <th>Course</th>
+      <th>Score</th>
+    </tr>
+
+    <tr>
+      <td>Adaeze</td>
+      <td>html</td>
+      <td>95</td>
+    </tr>
+
+    <tr>
+      <td>Chinedu</td>
+      <td>css</td>
+      <td>89</td>
+    </tr>
+
+    <tr>
+      <td>Paul</td>
+      <td>JavaScript</td>
+      <td>55</td>
+    </tr>
+
+  </table><br>
+
+  <!-- Link to my bio -->
+  <a href="/index.html">----- Switch to my bio -----</a><br><br>
+
+  </div>   
+ 
+  </main>
+
+   <footer style="text-align: center; background-color: #260300; color: white; padding:10px;">
+    <p>© 2023 Eklou Kossi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
